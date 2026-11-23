@@ -8,5 +8,4 @@ for i in range(0,len(arr),1):
         arr[i],arr[j]=arr[j],arr[i]
         j+=1
 
-print(j)
 print(arr)
