@@ -5,5 +5,5 @@ for i in range(0,len(arr),1):
         temp = arr[i]
         arr[i]=arr[j]
         arr[j]=temp
-        j+=1      
+        j=j+1      
 print(arr)         
